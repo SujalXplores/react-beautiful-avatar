@@ -1,0 +1,55 @@
+{
+  "name": "react-beautiful-avatar",
+  "version": "1.0.0",
+  "description": "Simple and beautiful avatar component",
+  "author": "https://github.com/SujalShah3234",
+  "license": "MIT",
+  "repository": "https://github.com/SujalShah3234/react-beautiful-avatar",
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.tsx",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "predeploy": "cd example && npm install && npm run build"
+  },
+  "peerDependencies": {
+    "react": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.26",
+    "@types/react-dom": "18.0.10",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "5.48.1",
+    "@typescript-eslint/parser": "5.48.1",
+    "babel-eslint": "10.0.3",
+    "cross-env": "7.0.3",
+    "eslint": "8.32.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-config-standard-react": "13.0.0",
+    "eslint-plugin-import": "2.27.4",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-promise": "6.1.1",
+    "eslint-plugin-react": "7.32.0",
+    "eslint-plugin-standard": "4.1.0",
+    "microbundle-crl": "0.13.11",
+    "postcss": "^8.4.21",
+    "prettier": "2.8.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "4.9.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "styled-components": "^5.3.6"
+  }
+}

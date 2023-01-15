@@ -1,0 +1,33 @@
+.avatar {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.avatar--rounded {
+  border-radius: 50%;
+}
+
+.avatar--squared {
+  border-radius: 5px;
+}
+
+.initials {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: gray;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
